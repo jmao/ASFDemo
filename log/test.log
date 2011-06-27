@@ -1,0 +1,42 @@
+  Processing by ProductsController#create as HTML
+  Parameters: {"product"=>{"title"=>"abc"}}
+#<Product:0x00000102964968>
+params {"product"=>{"title"=>"abc"}, "controller"=>"products", "action"=>"create"}
+product {"title"=>"abc"}
+product abc
+Completed 406 Not Acceptable in 10ms
+  Processing by ProductsController#create as HTML
+  Parameters: {"product"=>{"title"=>"abc"}}
+#<Product:0x000001038f9090>
+params {"product"=>{"title"=>"abc"}, "controller"=>"products", "action"=>"create"}
+product {"title"=>"abc"}
+product abc
+Completed 406 Not Acceptable in 9ms
+  Processing by ProductsController#create as HTML
+  Parameters: {"product"=>{"title"=>"abc"}}
+#<Product:0x00000101aff490>
+params {"product"=>{"title"=>"abc"}, "controller"=>"products", "action"=>"create"}
+product {"title"=>"abc"}
+product abc
+Completed 406 Not Acceptable in 9ms
+  Processing by ProductsController#create as HTML
+  Parameters: {"product"=>{"title"=>"abc"}}
+#<Product:0x00000102a1a2b8>
+params {"product"=>{"title"=>"abc"}, "controller"=>"products", "action"=>"create"}
+product {"title"=>"abc"}
+product abc
+Completed 406 Not Acceptable in 11ms
+  Processing by ProductsController#create as JSON
+  Parameters: {"product"=>{"title"=>"abc"}}
+#<Product:0x0000010293fb90>
+params {"product"=>{"title"=>"abc"}, "controller"=>"products", "action"=>"create"}
+product {"title"=>"abc"}
+product abc
+Completed 201 Created in 28ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  Processing by ProductsController#create as JSON
+  Parameters: {"product"=>{"title"=>"abc"}}
+#<Product:0x00000100fd20b8>
+params {"product"=>{"title"=>"abc"}, "controller"=>"products", "action"=>"create"}
+product {"title"=>"abc"}
+product abc
+Completed 201 Created in 28ms (Views: 1.1ms | ActiveRecord: 0.0ms)
